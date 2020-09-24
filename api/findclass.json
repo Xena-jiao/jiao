@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "marjor": "软件工程",
+      "marjor": "化学工程",
       "classnum": "1001",
       "session": "2017",
       "Admission time": "2017",
@@ -26,7 +26,7 @@
   ,
     {
       "id": 3,
-      "marjor": "软件工程",
+      "marjor": "油气工程",
       "classnum": "1001",
       "session": "2017",
       "Admission time": "2017",
@@ -36,7 +36,7 @@
     },
     {
       "id": 4,
-      "marjor": "软件工程",
+      "marjor": "物联网工程",
       "classnum": "1001",
       "session": "2017",
       "Admission time": "2017",
@@ -46,7 +46,7 @@
     },
     {
       "id": 5,
-      "marjor": "软件工程",
+      "marjor": "大数据",
       "classnum": "1001",
       "session": "2017",
       "Admission time": "2017",
@@ -56,7 +56,7 @@
     },
     {
       "id": 6,
-      "marjor": "软件工程",
+      "marjor": "市场营销",
       "classnum": "1001",
       "session": "2017",
       "Admission time": "2017",
@@ -66,7 +66,7 @@
     },
     {
       "id": 7,
-      "marjor": "软件工程",
+      "marjor": "网络工程",
       "classnum": "1001",
       "session": "2017",
       "Admission time": "2017",
@@ -76,7 +76,7 @@
     },
     {
       "id": 8,
-      "marjor": "软件工程",
+      "marjor": "计算机科学与技术",
       "classnum": "1001",
       "session": "2017",
       "Admission time": "2017",
