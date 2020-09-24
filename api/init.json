@@ -1,7 +1,7 @@
 {
   "homeInfo": {
     "title": "首页",
-    "href": "page/welcome-1.html?t=1"
+    "href": "new/welcome-1.html?t=1"
   },
   "logoInfo": {
     "title": "就业跟踪",
@@ -11,133 +11,108 @@
   "menuInfo": [
     {
       "title": "首页",
-      "href": "",
       "icon": "fa fa-home",
+      "href": "new/welcome-1.html",
+      "target": "_self"
+    },
+    {
+      "title": "院系管理",
+      "icon": "fa fa-institution",
+      "href": "",
       "target": "_self",
       "child": [
         {
-          "title": "院系管理",
-          "href": "",
-          "icon": "fa fa-home",
-          "target": "_self",
-          "child": [
-            {
-              "title": "专业管理",
-              "href": "page/dept/findMajor.html",
-              "icon": "fa fa-tachometer",
-              "target": "_self"
-            }
-
-          ]
+          "title": "专业管理",
+          "href": "page/dept/findMajor.html",
+          "icon": "fa fa-mortar-board",
+          "target": "_self"
+        }
+      ]
         },
-        {
+    {
           "title": "班级管理",
+          "icon": "fa fa-tasks",
           "href": "",
-          "icon": "fa fa-home",
           "target": "_self",
           "child": [
             {
-              "title": "添加管理",
-              "href": "page/class/addclass.html",
-              "icon": "fa fa-tachometer",
+              "title": "添加班级",
+              "href": "page/class/addClass.html",
+              "icon": "fa fa-plus-square",
               "target": "_self"
             },
             {
-              "title": "班级信息管理",
-              "href": "page/class/findclass.html",
-              "icon": "fa fa-tachometer",
-              "target": "_self"
-            }
-          ]
-        },
-        {
+              "title": "班级信息维护",
+              "href": "page/class/findClass.html",
+          "icon": "fa fa-search-plus",
+          "target": "_self"
+        }
+      ]
+    },
+    {
           "title": "学生管理",
+          "icon": "fa fa-user",
           "href": "",
-          "icon": "fa fa-home",
           "target": "_self",
           "child": [
             {
               "title": "添加学生",
               "href": "page/student/addStudent.html",
-              "icon": "fa fa-tachometer",
+              "icon": "fa fa-plus-square-o",
               "target": "_self"
             },
             {
-              "title": "学生信息管理",
+              "title": "学生信息维护",
               "href": "page/student/findStudent.html",
-              "icon": "fa fa-tachometer",
-              "target": "_self"
-            }
-          ]
-        },
-        {
+          "icon": "fa fa-search-plus",
+          "target": "_self"
+        }
+      ]
+    },
+    {
           "title": "合作企业管理",
+          "icon": "fa fa-group",
           "href": "",
-          "icon": "fa fa-home",
           "target": "_self",
           "child": [
             {
               "title": "合作企业添加",
               "href": "page/company/addCompany.html",
-              "icon": "fa fa-tachometer",
+              "icon": "fa fa-plus-square",
               "target": "_self"
             },
             {
               "title": "合作企业维护",
               "href": "page/company/comMaintenance.html",
-              "icon": "fa fa-tachometer",
+              "icon": "fa fa-search-plus",
               "target": "_self"
-            }
-          ,
+            },
             {
-              "title": "专场招聘维护",
+              "title": "专场招聘会维护",
               "href": "page/company/Dedicated maintenance.html",
-              "icon": "fa fa-tachometer",
+              "icon": "fa fa-search",
               "target": "_self"
-            }
-          ]
+        }
+      ]
+    },
+
+    {
+      "title": "跟踪回访管理",
+      "icon": "fa fa-comment-o",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "回访记录添加",
+          "href": "page/returnVisit/return.html",
+          "icon": "fa fa-plus-square",
+          "target": "_self"
         },
         {
-          "title": "跟踪回访管理",
-          "href": "",
-          "icon": "fa fa-home",
-          "target": "_self",
-          "child": [
-            {
-              "title": "回访记录添加",
-              "href": "page/returnVisit/return.html",
-              "icon": "fa fa-tachometer",
-              "target": "_self"
-            },
-            {
-              "title": "跟踪回访维护",
-              "href": "page/returnVisit/find.html",
-              "icon": "fa fa-tachometer",
-              "target": "_self"
-            }
-
-          ]
-        },
-        {
-          "title": "用户管理",
-          "href": "",
-          "icon": "fa fa-home",
-          "target": "_self",
-          "child": [
-            {
-              "title": "管理员维护",
-              "href": "page/user/manager.html",
-              "icon": "fa fa-tachometer",
-              "target": "_self"
-            },
-            {
-              "title": "个人信息维护",
-              "href": "page/user/personal.html",
-              "icon": "fa fa-tachometer",
-              "target": "_self"
-            }
-
-          ]
+          "title": "回访记录维护",
+          "href": "page/returnVisit/find.html",
+          "icon": "fa fa-search-plus",
+          "target": "_self"
         }
       ]
     }
